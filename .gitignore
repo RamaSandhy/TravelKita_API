@@ -1,0 +1,25 @@
+# Node modules (jangan diupload ke repo)
+node_modules/
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment file (isi seperti DB password, JWT secret)
+.env
+
+# Build artifacts (jika pakai TypeScript, dll)
+dist/
+build/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
